@@ -96,7 +96,7 @@ const options = [
       },
       {
         title: "Developer Identity",
-        desc: "Ilham Ziqri: Frontend specialist crafting web interfaces that feel alive, intuitive, and memorable."
+        desc: "DevBenja: Systems Engineering student focused on cybersecurity and backend logic."
       }
     ]
   },
@@ -115,7 +115,7 @@ const options = [
     cards: [
       {
         title: "Direct Mail",
-        desc: "aiosssml@gmail.com: Priority channel for direct communication and collaborations."
+        desc: "devbenjacodex@gmail.com: Priority channel for direct communication and collaborations."
       },
       {
         title: "GitHub Repository",
@@ -159,49 +159,49 @@ const slinkData = [
 ];
 
 const skillTabsList = [
-  { id: "frontend", code: "01", label: "FRONTEND" },
-  { id: "backend", code: "02", label: "BACKEND" },
-  { id: "ai", code: "03", label: "AI & ML" },
+  { id: "frontend", code: "01", label: "CORE & SCRIPTING" },
+  { id: "backend", code: "02", label: "BACKEND & NETWORKS" },
+  { id: "ai", code: "03", label: "CYBERSECURITY" },
   { id: "languages", code: "04", label: "LANGUAGES" }
 ];
 
 const skillGroupsData = [
   {
     id: "frontend",
-    title: "FRONTEND & WEB ENGINEERING",
+    title: "PYTHON CORE & SYSTEM SCRIPTING",
     code: "01",
     skills: [
-      { name: "JavaScript / TypeScript", level: 92 },
-      { name: "React · Next.js · Vue 3", level: 88 },
-      { name: "HTML5 · Modern CSS3 · Tailwind", level: 95 },
-      { name: "SvelteKit · State Management", level: 84 },
-      { name: "WebGL · Three.js · Canvas", level: 80 },
-      { name: "UI/UX Design · Figma Systems", level: 86 }
+      { name: "Python (OOP & Data Structures)", level: 90 },
+      { name: "Bash Scripting & Automation", level: 85 },
+      { name: "Linux / WSL2 Administration", level: 85 },
+      { name: "Git & GitHub Version Control", level: 80 },
+      { name: "CLI Tools & Text Parsing (grep/awk)", level: 75 },
+      { name: "Unit Testing & Exception Handling", level: 70 }
     ]
   },
   {
     id: "backend",
-    title: "BACKEND & CLOUD ARCHITECTURE",
+    title: "BACKEND APIS & NETWORKING",
     code: "02",
     skills: [
-      { name: "Node.js · Express · REST APIs", level: 85 },
-      { name: "Python · FastAPI · Django", level: 82 },
-      { name: "SQL · PostgreSQL · Supabase", level: 80 },
-      { name: "Docker · CI/CD · Cloud Hosting", level: 76 },
-      { name: "Git · GitHub · Workflows", level: 90 },
-      { name: "WebSockets & Realtime Systems", level: 78 }
+      { name: "FastAPI & Flask REST APIs", level: 85 },
+      { name: "PostgreSQL & SQLite (SQL Relational DB)", level: 80 },
+      { name: "TCP/IP & OSI Model Architecture", level: 85 },
+      { name: "DNS, HTTP/HTTPS Protocols & TLS", level: 85 },
+      { name: "Network Diagnostics (curl, ping, nmap)", level: 75 },
+      { name: "API Security & Token Auth", level: 70 }
     ]
   },
   {
     id: "ai",
-    title: "AI & MACHINE LEARNING",
+    title: "DEFENSIVE SECURITY & APPLICATION AUDITING",
     code: "03",
     skills: [
-      { name: "Prompt Engineering & Agent Swarms", level: 90 },
-      { name: "TensorFlow / PyTorch · Neural Nets", level: 82 },
-      { name: "NLP & LLM API Integrations", level: 85 },
-      { name: "Computer Vision · MediaPipe", level: 80 },
-      { name: "Vector DB & RAG Architecture", level: 84 }
+      { name: "OWASP Top 10 (SQLi, XSS, CSRF)", level: 85 },
+      { name: "Input Validation & Parameterization", level: 90 },
+      { name: "Password Hashing (bcrypt) & Secrets", level: 85 },
+      { name: "Security Scripting & Port Auditing", level: 75 },
+      { name: "Defensive Labs (DVWA & Juice Shop)", level: 80 }
     ]
   },
   {
@@ -209,10 +209,9 @@ const skillGroupsData = [
     title: "LANGUAGE PROFICIENCY",
     code: "04",
     skills: [
-      { name: "Bahasa Indonesia (Native / Fluent)", level: 100 },
-      { name: "English (Professional Working Proficiency)", level: 86 },
-      { name: "English (Technical & Documentation)", level: 90 },
-      { name: "English (Spoken & Conversational)", level: 82 }
+      { name: "Spanish (Native / Fluent)", level: 100 },
+      { name: "English (Technical Reading & Documentation)", level: 45 },
+      { name: "English (Conversational / Intermediate)", level: 35 }
     ]
   }
 ];
